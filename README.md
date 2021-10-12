@@ -1,12 +1,32 @@
 # Postman API-First Hacktoberfest for Students: API starter
 
-<EDIT ME!>
+## Overview
 
-> README.md is a special file in your repo that gives an overview of your project - it is the landing page people see when they interact with your project. Write anything here that will help collaborators get started helping you! Feel free to replace this quote block with any explanation you want. Some things you might want to include:
-> - What the project is
-> - How to set up development environment (dependencies, local install instructions, how to run server etc.)
-> - Any special contributing instructions
-> - Project roadmap
+- This project is developed as a part of learning API First Development.
+- In API-first approach, we define an API before writing any code for a server or frontend. 
+- The routes, parameters, responses, and other traits of an API can be clearly defined with a schema.
+
+## About
+- This repository represents the server side code consisting of various API Endpoints that allows users to add, read, update and delete
+  Halloween costume party contestants.
+
+## Technologies
+
+- MongoDB
+- ExpressJS
+- NodeJS
+
+## Installation
+Go to your command line and execute the following commands
+1. `git clone https://github.com/Rosh9532/hacktoberfest21-api-starter.git`
+2. `npm install`
+3. `node src/server.js`
+
+ You will need to configure your MongoDB database URI in .env file and add it to base directory.
+ 
+ ## Deployment
+ Link: https://halloween-contest.herokuapp.com/
+
 
 --------
 
