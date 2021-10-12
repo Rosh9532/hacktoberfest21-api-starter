@@ -13,14 +13,13 @@ exports.getAPIstatus = (req, res) => {
 // @params none
 // @permission all
 exports.addContestant = (req, res) => {
-  const { name, costumeTitle, costumeImgUrl, city, country, votes } = req.body;
+  const { name, costumeTitle, costumeImgUrl, city, country } = req.body;
   const contestant = new Contestant({
     name,
     costumeTitle,
     costumeImgUrl,
     city,
     country,
-    votes,
   });
 
   contestant.save((err, data) => {
